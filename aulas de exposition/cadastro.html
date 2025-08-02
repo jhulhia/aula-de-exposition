@@ -1,0 +1,63 @@
+<DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset=" UTF-8">
+    </head>
+    <body>
+        <div id="area">
+            <fieldset>
+                <legend>Formulário de Cadastro</legend>
+                <form id="cadastroBasico" action="/processa" method="post">
+            <label for="nome">Nome Completo:</label>
+            <input type="text" id="nome" name="nome" required>
+            <br>
+            <br>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <br>
+        
+            <label for="cpf">CPF:</label>
+            <input type="number" id="cpf" name="cpf" required>
+            <br>
+            <br>
+
+            <label for="rg"> RG:</label>
+            <input type="number" id="rg" name="rg" required>
+            <br>
+            <br>
+
+            <label for="data de nascimento" >Data de nascimento:</label>
+            <input type="date" id="data de nascimento" nome="data de nascimento" required>
+            <br>
+
+            <br>
+            <legend>GÊNERO:</legend>
+            <input type="radio" id="masculino" name="genero" value="masculino">
+            <label for="masculino"> Masculino</label><br>
+            <input type="radio" id="feminino" name="genero" value="feminino">
+            <label for="feminino">Feminino</label><br>
+            <input type="radio" id="outro">Outros</label>
+            <br>
+            <br>
+
+            <label for="Estado Civil">Estado Civil</label>
+            <select id="genero" name="genero">
+                <option value="">Selecione</option>
+                <option value=">solteiro/a">solteiro/a</option>
+                <option value=">casado/a">casado/a</option>
+                <option value=">divorciado/a">divorciado/a</option>
+            </select>
+            <br>
+           <br>
+           <button type="reset">Limpar</button>
+            <button type="submit">Enviar</button>
+            
+        </form>
+        
+            </fieldset>
+            <a href="index.html"><button>VOLTAR</button></a>
+        </div>
+    </body>
+</html>
+        

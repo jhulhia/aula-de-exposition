@@ -21,9 +21,11 @@
   cursor: pointer;
   border-radius: 5px;
   position: absolute;
-  top: 50px;
-  left: 50px;
-  text-decoration: none;
+  top: 5px;
+  left: 2px;
+
+  
+ 
 }
 
 .dropdown-content {
@@ -51,3 +53,19 @@
 .dropdown:hover .dropbtn {
   background-color: #3e8e41;
 }
+.container {
+  height: 200px;
+  background-color: #fefefe;
+  position: relative;
+}
+
+.caixa {
+  width: 105px;
+  height: 100px;
+  background-color: orange;
+  position: sticky;
+  top: 10px;
+  left: 10px;
+ 
+}
+/*========Estilizando 
